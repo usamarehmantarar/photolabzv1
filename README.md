@@ -11,7 +11,6 @@ This documentation provides an overview of a Flask web application for image pro
    - [3. Enhance Image Quality (`/enhance`)](#3-enhance-image-quality-enhance)
 4. [Docker Container](#docker-container)
 5. [Usage](#usage)
-6. [Contributors](#contributors)
 
 ## Introduction
 
