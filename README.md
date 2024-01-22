@@ -66,7 +66,7 @@ To set up the app, follow these steps:
 
 ## Docker Container
 
-This Flask app is available as a Dockerized container on Docker Hub. You can pull the image using:
+This Flask app is also available as a Dockerized container on Docker Hub. You can pull the image using:
 
 ```bash
 docker pull [image_name]
