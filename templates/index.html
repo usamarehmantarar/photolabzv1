@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Filter App</title>
+</head>
+<body>
+    <h1>Image Filter App</h1>
+    <form action="/apply_filter" method="POST" enctype="multipart/form-data">
+        <label for="key">Enter the project key:</label>
+        <input type="text" name="key" ><br><br>
+        <label for="image">Upload an image:</label>
+        <input type="file" name="image" accept="image/*"><br><br>
+        
+        <label for="img_url">Pass the background image url:</label>
+        <input type="text" name="img_url" ><br><br>
+
+        <input type="submit" value="Apply Filter">
+    </form>
+    <br><br><hr>
+    <h1>Image File as BG</h1>
+    <form action="/image_bg" method="POST" enctype="multipart/form-data">
+        <label for="key">Enter the project key:</label>
+        <input type="text" name="key" ><br><br>
+        <label for="image">Upload an image:</label>
+        <input type="file" name="image" accept="image/*"><br><br>
+        
+        <label for="img_bg">upload the background image file:</label>
+        <input type="file" name="img_bg" ><br><br>
+
+        <input type="submit" >
+    </form>
+
+    <br> <br>
+    <hr>
+    <p>Image Upscaling and Edge Enhancement</p>
+    <form method="POST" enctype="multipart/form-data" action="/enhance">
+       <input type="text" name="key" required placeholder="ENTER KEY HERE"><br><br>
+       <input type="file" name="image" accept="image/*"><br><br>
+       <input type="submit" value="Enhance/Rescale">
+    </form>
+</body>
+</html>
