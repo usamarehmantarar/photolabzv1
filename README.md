@@ -69,10 +69,8 @@ To set up the app, follow these steps:
 This Flask app is also available as a Dockerized container on Docker Hub. You can pull the image using:
 
 ```bash
-docker pull [image_name]
+docker pull usamarehmantararml/photolabzv1:v1.1
 ```
-
-Replace `[image_name]` with the appropriate Docker image name.
 
 ## Usage
 
